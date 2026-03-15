@@ -1,0 +1,12 @@
+#tamanho string
+nome1, nome2 = input("Diga duas palavras e dê espaço para ssepará-las ").split()
+print(f"A primeira palavra é {nome1} e tem o tamanho de {len(nome1)}")
+print(f"A segunda palavra é {nome2} e tem o tamanho de {len(nome2)}")
+if len(nome1) == len(nome2):
+    print("Elas tem o mesmo tamanho")
+else:
+    print("Elas tem tamanhos diferentes")
+if nome1 == nome2:
+    print("Elas tem o mesmo conteúdo")
+else:
+    print("Elas tem conteúdos diferentes")
