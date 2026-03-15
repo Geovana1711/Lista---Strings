@@ -1,0 +1,3 @@
+nome = input("Digite seu nome: ")
+nome_na_vertical = "\n".join(nome) # função que separa pelo que é mencionado entre aspas e junta tudo
+print(nome_na_vertical)
